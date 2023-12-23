@@ -27,6 +27,7 @@ class App extends Component {
     if (hasCart) {
       toast.info(`Product ${id} is added`);
     } else {
+      toast.success(`Product ${id} is added successfully!`);
       let newProduct = PRODUCTS.find((el) => el.id === id);
       newProduct.quantity = 1;
       this.setState({ cartItems: [...this.state.cartItems, newProduct] });
