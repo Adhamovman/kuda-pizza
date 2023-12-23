@@ -1,0 +1,42 @@
+footer {
+  background-color: #fff;
+  border: 1px solid hsl(0, 0%, 94%);
+  margin-top: 60px;
+  padding: 32px 0;
+}
+.foot-base {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.d-col {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    text-decoration: none;
+  }
+}
+.cat-foot {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+@media screen and (max-width: 768px) {
+  .foot-base {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.contact-way {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.socials {
+  display: flex;
+  gap: 10px;
+}

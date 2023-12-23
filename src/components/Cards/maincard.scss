@@ -1,0 +1,14 @@
+.main-card {
+  background: var(--White, #fff);
+}
+.card-header {
+  position: relative;
+}
+.label {
+  position: absolute;
+  top: 8px;
+  padding: 7px 16px;
+  background-color: var(--red);
+  color: #fff;
+  border-radius: 0 12px 12px 0;
+}

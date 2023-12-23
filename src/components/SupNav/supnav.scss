@@ -1,0 +1,28 @@
+.nav-link {
+  margin: 0;
+}
+.btn-tr-back,
+.btn-tr-background button {
+  border: none !important;
+  display: flex !important;
+  align-items: center;
+  padding: 4px 6px !important;
+  gap: 4px;
+  &:hover,
+  &:focus,
+  &:active,
+  &:focus:active {
+    background-color: #fff !important;
+  }
+}
+
+.sup-nav p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #191919;
+}
+@media screen and (max-width: 768px) {
+  .navbar-expand .navbar-collapse {
+    justify-content: end;
+  }
+}

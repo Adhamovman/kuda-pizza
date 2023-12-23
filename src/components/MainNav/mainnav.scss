@@ -1,0 +1,20 @@
+.mainnav {
+  position: sticky !important;
+  top: 0;
+  z-index: 5;
+}
+.toggle-btn {
+  border: none !important;
+  & span {
+     background-image: url(../../assets/images/icons/Menu.png);
+  }
+  &:focus {
+    box-shadow: none !important
+  }
+}
+.auth {
+  display: flex !important; 
+  gap: 12px;
+  padding: 12px 8px !important;
+  background-color: #eee !important;
+}
